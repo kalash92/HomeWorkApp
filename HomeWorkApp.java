@@ -19,7 +19,7 @@ public class HomeWorkApp {
 
     public static void checkSumSign() {
 
-        int a = 1;
+        int a = 0;
         int b = 2;
 
         if (a + b >= 0) {
