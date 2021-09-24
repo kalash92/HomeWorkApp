@@ -12,7 +12,6 @@ public class lesson3 {
         fourthTask();
         System.out.println(Arrays.toString(fifthTask(3, 7)));
         sixthTask();
-        eighthTask();
     }
 
     public static void firstTask() {
@@ -87,15 +86,5 @@ public class lesson3 {
         System.out.println("Max: " + array[array.length - 1]);
         System.out.println("Min: " + array[0]);
     }
-
-    public static void eighthTask() {
-        int n = -2;
-        int[] array = new int[rnd.nextInt(3) + 3];
-        for(int i = 0; i < array.length; i++) {
-            array[i] = i + 1;
-        }
-        System.out.println(Arrays.toString(array));
-    }
-
 
 }
